@@ -30,13 +30,13 @@ class User extends Authenticatable
 
     public function questions()
     {
-        return this->hasMany(Questions::class);
+        return $this->hasMany(Question::class);
     }
 
-    public function setTitileAttribute($value)
+    public function getUrlAttribute()
     {
-        $this->attributes['title'] = $value;
-        $this->attributes['slug'] = str_slug($value);
+        // return route("questions.show", $this->id);
+        return "#";
     }
 
     /**

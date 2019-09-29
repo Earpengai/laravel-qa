@@ -1,0 +1,47 @@
+.counters{
+    margin-right: 16px;
+    width: 58px;
+    float: none;
+    margin-left: 8px;
+    flex-shrink: 0;
+    color: #6a737c;
+    font-size: 12px;
+}
+.counters .stats{
+    margin: 0;
+    width: 58px;
+}
+.counters .stats .vote {
+    text-align: center;
+}
+.counters .stats .vote .votes{
+    padding: 0;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.counters .status{
+    padding: 7px 0 5px;
+    border-radius: 3px;
+    text-align: center
+}
+.counters strong {
+    display: block;
+    font-size: 14px;
+}
+
+.status.answered{
+    color: #45A163;
+}
+.status.answered {
+    /* border-color: rgba(69,161,99,0.5); */
+    border: 1px solid rgba(69,161,99,0.5);
+}
+.answered-accepted{
+    color: #fff;
+    background-color: #5fba7d;
+}
+.counters .view {
+    padding-top: 5px;
+    text-align: center;
+    font-size: 11px;
+}
